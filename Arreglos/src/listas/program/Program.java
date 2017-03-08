@@ -31,5 +31,10 @@ public class Program
 			System.out.println(current.getPlayer().getNombre());
 		}
 		
+		lista.Eliminar(nuevo);
+		
+		Nodo algo = new Nodo("dddd", 60, Posicion.DELANTERO);
+		lista.Eliminar(algo);
+		
 	}
 }
