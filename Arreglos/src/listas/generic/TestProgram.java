@@ -1,7 +1,8 @@
 package listas.generic;
 
 import java.util.Random;
-import java.util.Date;
+import listas.libreria.Jugador;
+import java.util.Calendar;
 
 public class TestProgram 
 {
@@ -11,10 +12,14 @@ public class TestProgram
 		Nodo<Random> nuevo1 = new Nodo<Random>();
 		Nodo<Integer>  nuevo2 = new Nodo<Integer>();
 		
-		
 		Lista<String> miLista = new Lista<String>();
-		Lista<Date> otraLista = new Lista<Date>();
+		Lista<Calendar> otraLista = new Lista<Calendar>();
 		
 		miLista.agregar(nuevo, PosicionInsercion.FINAL);
+		
+		Nodo<Jugador> algo = new Nodo<Jugador>();
+		Jugador p = algo.getValue();
+		
+		
 	}
 }
